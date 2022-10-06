@@ -1,0 +1,53 @@
+body {
+    box-sizing: border-box;
+}
+
+footer {
+    color: plum;
+    font-style: italic;
+    text-align: center;
+}
+
+h1 {
+    font-family: Helvetica;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+    background-image: url("/Users/sharlynnheinitz/Desktop/Projects.VSC/DasmotosArts&Crafts/resources/photos/pattern.jpeg");
+}
+
+h2 {
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+h3 {
+    font-weight: bold;
+    font-color: black;
+}
+
+p {
+    text-align: left;
+    font-family: Helvetica;
+}
+
+strong {
+    font-family: Helvetica;
+    font-weight: bold;
+    color: blue;
+}
+
+.brushes {
+    background-color:mediumspringgreen;
+}
+
+.frames {
+    background-color: lightcoral;
+}
+
+.paint {
+    background-color: skyblue;
+}
