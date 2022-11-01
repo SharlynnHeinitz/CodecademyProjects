@@ -1,0 +1,136 @@
+/* whole page */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(197, 219, 232);
+    font-family: 'Source Code Pro', monospace;
+}
+
+/* text */
+h1 {
+    text-align: center;
+    color: rgb(46, 67, 79);
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Source Code Pro', monospace;
+}
+
+h2 {
+    color: rgb(14, 36, 48);
+    font-size: 35px;
+    font-weight:700;
+    font-family: 'Lora', serif;
+}
+
+p {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.button {
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 2px solid rgb(14, 36, 48);
+    border-radius: 5px;
+    background-color:rgb(217, 130, 63);
+    margin: 15px;
+    padding: 10px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+/* navigation */
+.jumpto {
+    text-align: center;
+}
+
+.jumpto li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(46, 67, 79)
+}
+
+/* sections */
+.section {
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: rgb(14, 36, 48);
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: rgb(14, 36, 48);
+}
+
+.colorbox {
+    border: 1px solid rgb(14, 36, 48);
+    padding: 10px;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+    height: min-content;
+    width: 200px;
+    color: lightgray;
+}
+
+#primarycolor {
+    background-color: rgb(46, 67, 79);
+    text-align: center;
+}
+
+#secondarycolor {
+    background-color: rgb(14, 36, 48);
+    text-align: center;
+}
+
+#tertiarycolor {
+    background-color: rgb(197, 219, 232);
+    color:rgb(46, 67, 79);
+    text-align: center;
+}
+
+#standoutcolor {
+    background-color: rgb(217, 130, 63);
+    text-align: center;
+}
+
+.font h3 {
+    text-decoration: underline;
+    text-decoration-color:rgb(14, 36, 48);
+}
+
+.sourcecodepro {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.lora {
+    font-family: 'Lora', serif;
+}
+
+.fuzzybubbles {
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+.examplebutton {
+    max-width: 150px;
+}
+
+/* footer */
+footer {
+    text-align: center;
+}
+
+#slogo {
+    height: 50px;
+    width: 50px;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-right: 10px;
+}
