@@ -1,0 +1,207 @@
+/* Site Stylesheet
+    1. Global Styles
+    2. Typography Styles
+    3. Structure Styles
+    4. Page Styles
+============================================= */
+
+/* 1. Global Styles
+============================================= */
+* {
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: black;
+}
+
+/* 2. Typography Styles
+============================================= */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+a {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+/* 3. Structure Styles
+============================================= */
+.header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+main {
+    display: flex;
+    width: 1280px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#mission {
+    height: 700px;
+    width: 1200px;
+    background-image: url("/resources/photos/img-mission-background.jpg");
+    background-size: cover;
+    background-color: tan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 40px;
+}
+
+.banner {
+    background-color: black;
+    width: 1200px;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#featuredtea {
+    width: 1000px;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.foodphotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#locations {
+    height: 500px;
+    width: 1200px;
+    background-image: url("/resources/photos/img-locations-background.jpg");
+    background-size: cover;
+    background-color: tan;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.locationboxes {
+    display: inline-flex;
+    margin-bottom: 70px;
+}
+
+.address {
+    height: 250px;
+    width: 300px;
+    background-color: black;
+    margin: 0px 40px;
+    opacity: 1;
+    text-align: center;
+}
+
+.contactinfo {
+    height: 200px;
+}
+
+/* 4. Page Styles
+============================================= */
+.logo {
+    height: 50px;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.sectiontags {
+    margin-left: auto;
+}
+
+.sectiontags li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0px 20px;
+    margin-right: 10px;
+}
+
+.bannerheadline {
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.bannersupportline {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.image {
+    width: 300px;
+    height: 200px;
+    margin: 0px 10px;
+}
+
+.picture h4 {
+    margin-top: 10px;
+}
+
+#locations h2 {
+    background-color: transparent;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 15px;
+}
+
+.address p {
+    line-height: 40px;
+}
+
+.copyright {
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
